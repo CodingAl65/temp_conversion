@@ -1,10 +1,7 @@
 
     // function to convert Farenheit to Celcius
-
-    function celsiusToFahrenheit(celsius) {
-        // Use the formula
+    function convertCtoF() {
+        let celsius = document.getElementById("textCelsius").value;
         let fahrenheit = (celsius * 1.8) + 32;
-        
-        // Return the result
-        return fahrenheit;
+        document.getElementById("textFahrenheit").value = fahrenheit;
     }
